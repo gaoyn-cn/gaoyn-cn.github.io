@@ -1,0 +1,13 @@
+--- 
+layout: post
+title: Hello World
+date: 2025-12-05
+---
+
+# Welcome
+
+welcome, here is the notes of AI and some materials.
+
+## Why I started
+
+to store the material in my interest.
