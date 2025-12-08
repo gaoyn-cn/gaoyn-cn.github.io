@@ -1,0 +1,31 @@
+---
+---
+
+/* 1. 引入默认主题样式 */
+@import "{{ site.theme }}";
+
+/* 2. 在下面写你的自定义样式来覆盖默认值 */
+
+/* 调整整体容器的宽度 */
+.wrapper {
+  max-width: 1200px !important; /* 你想要的宽度，比如 1100px 或 90% */
+  width: 95% !important;        /* 适应小屏幕 */
+}
+
+/* 调整右侧内容区域的宽度 */
+/* 默认主题左侧栏(header)大概占270px，剩下的留给section */
+section {
+  width: calc(100% - 300px) !important; /* 让内容自动填满剩余空间 */
+  max-width: none !important;           /* 去掉原来可能的限制 */
+}
+
+/* 针对手机端的优化 (屏幕小于 768px 时) */
+@media print, screen and (max-width: 768px) {
+  .wrapper {
+    width: auto;
+  }
+  section {
+    width: auto;
+    float: none;
+  }
+}
