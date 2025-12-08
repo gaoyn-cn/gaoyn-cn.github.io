@@ -1,6 +1,7 @@
 title: YNotes
 description: Notes on tech,life,etc.
 theme: jekyll-theme-minimal
+permalink: /:title/
 
 plugins:
   - jekyll-seo-tag
