@@ -15,7 +15,7 @@
 /* 调整右侧内容区域的宽度 */
 /* 默认主题左侧栏(header)大概占270px，剩下的留给section */
 section {
-  width: calc(100% - 300px) !important; /* 让内容自动填满剩余空间 */
+  width: calc(100% - 100px) !important; /* 让内容自动填满剩余空间 */
   max-width: none !important;           /* 去掉原来可能的限制 */
 }
 
