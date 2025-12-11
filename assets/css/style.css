@@ -12,11 +12,18 @@
   width: 95% !important;        /* 适应小屏幕 */
 }
 
+header{
+  width: 270px !important; 
+}
+
 /* 调整右侧内容区域的宽度 */
 /* 默认主题左侧栏(header)大概占270px，剩下的留给section */
 section {
-  width: calc(100% - 100px) !important; /* 让内容自动填满剩余空间 */
+ /* width: calc(100% - 100px) !important; */ /* 让内容自动填满剩余空间 */
   max-width: none !important;           /* 去掉原来可能的限制 */
+  margin-left: 290px !important;
+  width: auto !important;
+  float: none !impoartant;
 }
 
 /* 针对手机端的优化 (屏幕小于 768px 时) */
@@ -25,6 +32,7 @@ section {
     width: auto;
   }
   section {
+    margin-left: 0 !important;
     width: auto;
     float: none;
   }
