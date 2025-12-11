@@ -1,3 +1,4 @@
+[Home](/) | [About](/about)
 ## Notes
 
 <ul>
