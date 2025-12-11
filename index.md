@@ -1,4 +1,4 @@
-[Home](/) | [About](/about)
+[首页](/) | [关于](/about)
 
 # Notes
 
